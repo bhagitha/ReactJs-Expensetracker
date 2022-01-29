@@ -14,7 +14,7 @@ const totalMaximun=Math.max(...dataPointValues) //pull all the values for max fu
           value={dataPoint.value} 
           maxValue={totalMaximun} 
           label={dataPoint.label}/>))
-          }
+}
   </div>
   );
 }
